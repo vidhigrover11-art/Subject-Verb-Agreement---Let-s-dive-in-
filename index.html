@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Subject–Verb Agreement | Grade 5 Grammar Lab</title>
+<style>
+:root{--ink:#24334a;--muted:#637187;--cream:#fffaf0;--paper:#fff;--purple:#7663c9;--lav:#eeeaff;--mint:#dff6e9;--yellow:#fff0b8;--coral:#ffddd4;--blue:#dceeff;--line:#e7e5ef;--green:#26794c;--red:#b43b45}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font-family:"Trebuchet MS",Arial,sans-serif;line-height:1.6}
+header{background:linear-gradient(130deg,#eeeaff,#e0f4ff 55%,#e0f7e8);padding:38px 20px 30px;text-align:center;border-bottom:2px dashed #c8c0ed}
+.topline{font-size:.78rem;letter-spacing:2px;font-weight:800;color:#6757ad;text-transform:uppercase}
+h1{font-size:clamp(2rem,5vw,3.5rem);line-height:1.12;margin:12px auto;max-width:900px;letter-spacing:-1px}
+.subtitle{max-width:700px;margin:12px auto;color:#53627b;font-size:1.08rem}
+.badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin-top:18px}.badge{background:#fff;border:1px solid #ddd6f6;border-radius:999px;padding:5px 13px;font-size:.82rem;font-weight:700}
+nav{position:sticky;top:0;z-index:5;background:#fffdf8eF;backdrop-filter:blur(10px);border-bottom:1px solid var(--line);display:flex;gap:8px;overflow-x:auto;padding:10px max(14px,calc((100% - 1050px)/2));}
+nav a{white-space:nowrap;text-decoration:none;color:#554b91;font-size:.88rem;font-weight:800;padding:7px 12px;border-radius:999px}nav a:hover{background:var(--lav)}
+main{max-width:1050px;margin:auto;padding:28px 18px 60px}.section{margin:26px 0 38px;scroll-margin-top:80px}
+.section-title{display:flex;align-items:center;gap:12px;margin-bottom:16px}.num{width:42px;height:42px;display:grid;place-items:center;border-radius:14px;background:var(--purple);color:white;font-weight:900;font-size:1.1rem;flex-shrink:0}h2{font-size:clamp(1.45rem,3vw,2rem);margin:0;line-height:1.2}h3{margin:0 0 8px;font-size:1.1rem}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.card{background:var(--paper);border:1px solid var(--line);border-radius:20px;padding:20px;box-shadow:0 5px 0 rgba(51,47,90,.04)}.card p:last-child{margin-bottom:0}.lav{background:var(--lav)}.mint{background:var(--mint)}.yellow{background:var(--yellow)}.coral{background:var(--coral)}.blue{background:var(--blue)}
+.big-rule{font-size:1.12rem;font-weight:800}.example{background:#fff;border-left:4px solid var(--purple);border-radius:9px;padding:10px 13px;margin:10px 0}.wrong{color:var(--red);text-decoration:line-through}.right{color:var(--green);font-weight:800}.tip{display:block;margin-top:10px;padding:10px 12px;border-radius:12px;background:#fff9dc;font-weight:700;color:#65521c}
+table{width:100%;border-collapse:collapse;background:white;border-radius:14px;overflow:hidden}th,td{text-align:left;padding:11px 13px;border-bottom:1px solid var(--line);vertical-align:top}th{background:#eeeaff;color:#51458e}tr:last-child td{border-bottom:0}
+.steps{counter-reset:step;display:grid;gap:10px}.step{counter-increment:step;background:#fff;border:1px solid var(--line);border-radius:14px;padding:13px 16px 13px 54px;position:relative}.step:before{content:counter(step);position:absolute;left:14px;top:12px;background:var(--mint);width:28px;height:28px;border-radius:9px;display:grid;place-items:center;font-weight:900;color:#26794c}
+.quizbox{background:white;border:1px solid var(--line);border-radius:20px;padding:22px;margin:14px 0}.qhead{display:flex;justify-content:space-between;gap:10px;color:var(--muted);font-weight:800;font-size:.85rem}.question{font-size:1.12rem;font-weight:800;margin:12px 0}.options{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.option{font:inherit;text-align:left;background:#fbfaff;border:2px solid #e5e0f7;border-radius:12px;padding:11px 13px;cursor:pointer;color:var(--ink)}.option:hover{border-color:var(--purple);background:var(--lav)}.option:disabled{cursor:default}.feedback{margin-top:12px;font-weight:800;min-height:25px}.controls{display:flex;gap:10px;flex-wrap:wrap;margin-top:15px}.btn{border:0;border-radius:12px;padding:11px 17px;font:inherit;font-weight:800;cursor:pointer;background:var(--purple);color:white}.btn.secondary{background:#e9e5fb;color:#51458e}.btn:focus,.option:focus{outline:3px solid #f5c94b;outline-offset:2px}.score{font-size:1.2rem;font-weight:900;background:var(--mint);padding:12px 16px;border-radius:12px;display:inline-block}
+details{background:#fff;border:1px solid var(--line);border-radius:14px;padding:13px 16px;margin:10px 0}summary{cursor:pointer;font-weight:800;color:#554b91}
+footer{text-align:center;background:#eeeaff;padding:24px;color:#625b83;font-size:.9rem}
+@media(max-width:700px){.grid{grid-template-columns:1fr}.options{grid-template-columns:1fr}main{padding:20px 13px 45px}.card{padding:17px}header{padding-top:30px}}
+</style>
+</head>
+<body>
+<header>
+  <div class="topline">Grade 5 • Grammar Discovery Lab</div>
+  <h1>Subject–Verb Agreement</h1>
+  <p class="subtitle">Become a Sentence Detective! Learn how subjects and verbs work as a team—with clear examples, clever tricks and a mini challenge.</p>
+  <div class="badges"><span class="badge">🔎 Spot the subject</span><span class="badge">🧩 Match the verb</span><span class="badge">🚀 Practise & play</span></div>
+</header>
+<nav aria-label="Page sections">
+<a href="#start">Start here</a><a href="#rules">The rules</a><a href="#tricks">Clever tricks</a><a href="#special">Special cases</a><a href="#practice">Practice lab</a><a href="#recap">Quick recap</a>
+</nav>
+<main>
+<section class="section" id="start">
+<div class="section-title"><span class="num">1</span><h2>What is subject–verb agreement?</h2></div>
+<div class="grid">
+<div class="card lav"><h3>🧍 The subject</h3><p>The person, animal, place or thing the sentence is about—or the one doing the action.</p><div class="example"><b>The astronaut</b> explores Mars.</div><p>Ask: <b>Who or what</b> is the sentence about?</p></div>
+<div class="card mint"><h3>🏃 The verb</h3><p>The action word or being word that tells what the subject does or is.</p><div class="example">The astronaut <b>explores</b> Mars.</div><p>Ask: What is the subject doing? What is it like?</p></div>
+</div>
+<div class="card yellow" style="margin-top:14px"><p class="big-rule">The golden rule: The subject and the verb must match!</p><div class="grid"><div><div class="example">One robot <b>works</b>.</div><small>Singular subject → works</small></div><div><div class="example">Three robots <b>work</b>.</div><small>Plural subject → work</small></div></div><span class="tip">🧠 The surprising trick: In the simple present tense, one person or thing often gets the verb with <b>-s</b>; more than one usually gets the verb without <b>-s</b>.</span></div>
+</section>
+
+<section class="section" id="rules">
+<div class="section-title"><span class="num">2</span><h2>Meet the main rules</h2></div>
+<div class="grid">
+<div class="card"><h3>Rule 1 · One vs. many</h3><p>A singular subject takes a singular verb. A plural subject takes a plural verb.</p><div class="example">The comet <b>glows</b> at night.</div><div class="example">The comets <b>glow</b> at night.</div></div>
+<div class="card"><h3>Rule 2 · He, she, it</h3><p>In the simple present, use a verb ending in <b>-s</b> or <b>-es</b> with he, she, it, or one person's/thing's name.</p><div class="example">Maya <b>watches</b> the stars.</div><div class="example">They <b>watch</b> the stars.</div><span class="tip">Try it: go → goes · fix → fixes · study → studies</span></div>
+<div class="card"><h3>Rule 3 · I and you are special</h3><p>Use the base verb with <b>I</b> and <b>you</b>, even when you mean one person.</p><div class="example">I <b>play</b> chess. ✓</div><div class="example">You <b>play</b> chess. ✓</div><div class="example">She <b>plays</b> chess. ✓</div></div>
+<div class="card"><h3>Rule 4 · Two subjects joined by “and”</h3><p>Two subjects usually make a plural subject, so use a plural verb.</p><div class="example">Riya and Kabir <b>are</b> curious.</div><div class="example">The cat and the dog <b>chase</b> the ball.</div><span class="tip">Remember: Riya + Kabir = they!</span></div>
+<div class="card"><h3>Rule 5 · “Is / are” and “was / were”</h3><table><tr><th>Subject</th><th>Present</th><th>Past</th></tr><tr><td>I</td><td>am</td><td>was</td></tr><tr><td>He / She / It / one</td><td>is</td><td>was</td></tr><tr><td>You / We / They / many</td><td>are</td><td>were</td></tr></table></div>
+<div class="card"><h3>Rule 6 · “Has / have” and “does / do”</h3><table><tr><th>Singular (he/she/it)</th><th>Plural (we/they)</th></tr><tr><td>has</td><td>have</td></tr><tr><td>does</td><td>do</td></tr></table><div class="example">The explorer <b>has</b> a map.</div><div class="example">The explorers <b>have</b> maps.</div></div>
+</div>
+</section>
+
+<section class="section" id="tricks">
+<div class="section-title"><span class="num">3</span><h2>Five clever detective tricks</h2></div>
+<div class="steps">
+<div class="step"><b>Find the real subject.</b> Ask “Who or what is doing it?” Don't choose a noun just because it is closest to the verb.</div>
+<div class="step"><b>Cover the extra words.</b> “The basket <em>of bright apples</em> <b>is</b> heavy.” Cover the middle phrase: “The basket is heavy.” The subject is <em>basket</em>, not apples.</div>
+<div class="step"><b>Swap the subject for a pronoun.</b> “The children” → “they,” so say “The children <b>are</b> ready.” “The child” → “he/she,” so say “The child <b>is</b> ready.”</div>
+<div class="step"><b>Watch for “each” and “every.”</b> These usually point to one at a time, so use a singular verb: “Every planet <b>has</b> a path.”</div>
+<div class="step"><b>Read it aloud.</b> “The birds sings” sounds bumpy. Check the subject, then test the verb: “The birds sing.”</div>
+</div>
+<div class="card coral" style="margin-top:14px"><h3>⚡ The “S Switch”</h3><p>For most simple-present action verbs, the <b>-s</b> switches sides:</p><div class="grid"><div class="example"><b>One</b> bird → bird <b>flies</b></div><div class="example"><b>Many</b> birds → birds <b>fly</b></div></div><p><b>Important:</b> This shortcut is for the simple present tense. In the past tense, “walked” works with both “she” and “they.”</p></div>
+</section>
+
+<section class="section" id="special">
+<div class="section-title"><span class="num">4</span><h2>Tricky cases made easy</h2></div>
+<div class="card">
+<h3>🔍 Don't let these sentences fool you</h3>
+<details open><summary>Words between the subject and verb</summary><p><span class="wrong">The box of crayons are</span> on the table. → <span class="right">The box of crayons is</span> on the table.</p><p>The subject is <b>box</b>. “Of crayons” only adds information.</p></details>
+<details><summary>Each, everyone, somebody, nobody</summary><p><span class="right">Everyone is</span> invited. · <span class="right">Each student has</span> a notebook. · <span class="right">Nobody knows</span> the answer.</p><p>These words are treated as singular in standard school grammar.</p></details>
+<details><summary>Either…or / Neither…nor</summary><p>The verb usually agrees with the subject closest to it:</p><p><span class="right">Either the teacher or the students are</span> presenting.</p><p><span class="right">Either the students or the teacher is</span> presenting.</p></details>
+<details><summary>There is / There are</summary><p>Look at the noun that comes after the verb:</p><p><span class="right">There is</span> one mystery. · <span class="right">There are</span> three mysteries.</p></details>
+<details><summary>Collective nouns: a team, class or family</summary><p>When the group is acting as one unit, use a singular verb: <span class="right">The team is</span> ready. · <span class="right">The class enjoys</span> the experiment.</p></details>
+<details><summary>Modal verbs: can, should, must, will</summary><p>After a modal verb, use the base form of the action verb:</p><p><span class="right">She can swim.</span> ✓ Not “She can swims.”</p><p><span class="right">The robots must follow</span> the rules.</p></details>
+</div>
+</section>
+
+<section class="section" id="practice">
+<div class="section-title"><span class="num">5</span><h2>Practice Lab: Can you crack the code?</h2></div>
+<p>Choose the best answer. Read the feedback, learn from any tricky ones, and try to earn a perfect score!</p>
+<div class="quizbox">
+<div class="qhead"><span id="progress">Question 1 of 10</span><span id="liveScore">Score: 0</span></div>
+<div class="question" id="question">The moon ___ around Earth.</div>
+<div class="options" id="options"></div>
+<div class="feedback" id="feedback" aria-live="polite"></div>
+<div class="controls"><button class="btn" id="nextBtn" disabled>Next question →</button><button class="btn secondary" id="restartBtn">Start again ↻</button></div>
+</div>
+<div id="finalScore" class="score" hidden></div>
+</section>
+
+<section class="section" id="recap">
+<div class="section-title"><span class="num">6</span><h2>Your pocket-sized recap</h2></div>
+<div class="grid">
+<div class="card mint"><h3>Remember these!</h3><p>✓ One subject: <b>the dog runs</b></p><p>✓ Many subjects: <b>the dogs run</b></p><p>✓ Joined by “and”: usually plural</p><p>✓ Each / everyone: singular</p><p>✓ Ignore extra words between subject and verb.</p></div>
+<div class="card yellow"><h3>The 3-second check</h3><p><b>1.</b> Find the subject.</p><p><b>2.</b> Decide: one or more than one?</p><p><b>3.</b> Choose the verb that matches.</p><span class="tip">You don't need to guess—be a sentence detective! 🔎</span></div>
+</div>
+<p style="color:var(--muted);font-size:.85rem;margin-top:20px">Learning reference: subject–verb agreement principles explained by Khan Academy and the University of Toronto Mississauga Academic Skills Centre.</p>
+</section>
+</main>
+<footer>Made for curious Grade 5 learners · Explore, notice patterns, and become a confident writer ✨</footer>
+<script>
+const quiz=[
+{q:"The moon ___ around Earth.",o:["orbit","orbits","are orbiting","orbiting"],a:1,e:"The moon is one thing (it), so the simple-present verb takes -s: orbits."},
+{q:"Mira and Zoya ___ a science podcast.",o:["records","record","is record","recording"],a:1,e:"Two names joined by and make a plural subject: they record."},
+{q:"The basket of mangoes ___ on the counter.",o:["are","were","is","have"],a:2,e:"The real subject is basket, not mangoes. One basket is: is."},
+{q:"Every planet ___ a path around the Sun.",o:["follow","follows","are following","have followed"],a:1,e:"Every is treated as singular: every planet follows."},
+{q:"I ___ ready for the inquiry challenge.",o:["am","is","are","be"],a:0,e:"With I, use am."},
+{q:"There ___ three clues in the notebook.",o:["is","was","are","has"],a:2,e:"The noun after the verb is plural (three clues), so use are."},
+{q:"Neither the coach nor the players ___ late.",o:["is","are","was","has"],a:1,e:"With neither…nor, the verb usually agrees with the closest subject: players → are."},
+{q:"Everyone ___ a role in the project.",o:["have","are having","has","were"],a:2,e:"Everyone is treated as singular, so use has."},
+{q:"The young inventor can ___ the machine.",o:["repairs","repair","repairs to","repairing"],a:1,e:"After can, use the base form: can repair."},
+{q:"The class ___ excited about the museum visit.",o:["are","is","have","were"],a:1,e:"The class is acting as one group, so use the singular verb is."}
+];
+let index=0,score=0,answered=false;
+const qEl=document.getElementById("question"),optsEl=document.getElementById("options"),feedEl=document.getElementById("feedback"),nextBtn=document.getElementById("nextBtn"),progEl=document.getElementById("progress"),scoreEl=document.getElementById("liveScore"),finalEl=document.getElementById("finalScore");
+function render(){answered=false;let item=quiz[index];qEl.textContent=item.q;progEl.textContent=`Question ${index+1} of ${quiz.length}`;scoreEl.textContent=`Score: ${score}`;feedEl.textContent="";nextBtn.disabled=true;nextBtn.textContent=index===quiz.length-1?"See my result →":"Next question →";optsEl.innerHTML="";item.o.forEach((option,i)=>{let b=document.createElement("button");b.className="option";b.textContent=String.fromCharCode(65+i)+". "+option;b.onclick=()=>choose(i,b);optsEl.appendChild(b)});finalEl.hidden=true}
+function choose(i,button){if(answered)return;answered=true;let item=quiz[index];let buttons=[...optsEl.children];buttons.forEach((b,j)=>{b.disabled=true;if(j===item.a){b.style.borderColor="#56a77b";b.style.background="#e0f7e8"} });if(i===item.a){score++;feedEl.style.color="#26794c";feedEl.textContent="Correct! 🌟 "+item.e}else{button.style.borderColor="#d7656b";button.style.background="#ffebea";feedEl.style.color="#a6333b";feedEl.textContent="Not quite—here's the clue. "+item.e}scoreEl.textContent=`Score: ${score}`;nextBtn.disabled=false}
+nextBtn.onclick=()=>{if(index<quiz.length-1){index++;render()}else{qEl.textContent="Mission complete!";optsEl.innerHTML="";feedEl.textContent=score===10?"Flawless detective work! You cracked every code.":"Every attempt teaches you something. Review the tricky cases and try again!";nextBtn.disabled=true;finalEl.hidden=false;finalEl.textContent=`Your score: ${score} / ${quiz.length} ${score>=8?"🏆":"🔎"}`;progEl.textContent="Challenge complete";}};
+document.getElementById("restartBtn").onclick=()=>{index=0;score=0;render()};
+render();
+</script>
+</body>
+</html>
